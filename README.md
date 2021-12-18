@@ -2,6 +2,8 @@
 
 네이버 검색 API를 사용하여 React로 개발한 영화 검색 웹 애플리케이션
 
+- https://choewy.github.io/react-movie-app
+
 ## 의존성
 
 ```json
@@ -104,8 +106,6 @@ $ npm i gh-pages --save
 설치를 마친 후 아래 코드와 같이 `package.json`의 `scripts`에 `deploy` 항목을 추가하고, 접속할 GitHub Pages의 URL 주소를 `homepage`에 입력한다. 
 
 ```json
-// package.json
-
 {
     "scripts": {
         "deploy": "npm run build && gh-pages -d build -b deploy"
@@ -114,7 +114,7 @@ $ npm i gh-pages --save
 }
 ```
 
-그리고 아래와 같이 `npm` 명령어를 사용하여 build와 deploy를 진행하고, 위에서 입력한 GitHub Pages의 URL 주소로 접속해보면 빌드한 결과물을 확인할 수 있다.
+아래와 같이 `npm` 명령어를 사용하여 build와 deploy를 마치면, 해당 프로젝트의 Repository의 deploy 브런치에 `/build` 폴더에 담긴 결과물이 커밋된 것을 확인할 수 있다. GitHub Pages를 사용하기 위해 해당 Repository에서 GitHub Pages의 브런치를 `deploy`로 바꾸고, 위에서 입력한 URL로 접속하면 결과물을 확인할 수 있다.
 
 ```
 $ npm run deploy
