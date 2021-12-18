@@ -1,0 +1,5 @@
+{
+    "clientID": "Naver API Client ID를 입력하세요.",
+    "clientSecret": "Naver API Client Secret Key를 입력하세요.",
+    "comment": "파일명을 config.json으로 변경하고, comment는 삭제하셔도 됩니다."
+}
